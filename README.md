@@ -1,6 +1,8 @@
 # digital_healthcare
 electronic health records on blockchain
 
+##### Optimized contract can be found in contracts/optimized_healthCare.sol
+
 ### Summary
 Project stores patient records on blockchain(hybrid). Hybrid because files are not stored on blockchain, but access information is stored on blockchain. There will be two participants doctor and patient.  
 - Doctor register by providing name.  
@@ -24,10 +26,10 @@ Update CONTRACT_DEPLOYED_PORT in env, which can be found in build -> contracts -
 
 **2. Start react server**  
 &nbsp;&nbsp;&nbsp;`npm run start`  
+&nbsp;&nbsp;&nbsp; visit http://localhost:3000  
 
 **3. Start node app**   
 &nbsp;&nbsp;&nbsp;`npm run server`  
 
 **4. Connect metamask to ganache and Import ganache accounts to metamask**  
 &nbsp;&nbsp;&nbsp;ex: http://localhost:7545  
-
